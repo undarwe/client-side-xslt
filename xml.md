@@ -15,7 +15,7 @@
 
     var pids = [ "Msxml2.DOMDocument.6.0", "Msxml2.DOMDocument.5.0", "Msxml2.DOMDocument.4.0", "Msxml2.DOMDocument.3.0", "Msxml2.DOMDocument" ];
 
-Согласно этой статье http://blogs.msdn.com/xmlteam/archive/2006/10/23/using-the-right-version-of-msxml-in-internet-explorer.aspx
+Согласно этой статье <http://blogs.msdn.com/xmlteam/archive/2006/10/23/using-the-right-version-of-msxml-in-internet-explorer.aspx>
 имеет смысл использовать в реальной жизни только два pid'а из этого списка: `Msxml2.DOMDocument.6.0` и `Msxml2.DOMDocument.3.0` ---
 первый это самый свежий, безопасный, соответствующий стандартам и т.д., а второй --- максимально распростаненный.
 
