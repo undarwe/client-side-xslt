@@ -36,7 +36,7 @@ TODO: Ссылка на msdn
 
     var xml = document.implementation.createDocument("", "", null);
 
-Ссылка: https://developer.mozilla.org/En/DOM/DOMImplementation.createDocument
+Ссылка: <https://developer.mozilla.org/En/DOM/DOMImplementation.createDocument>
 
 
 Создание xml-документа из строки
@@ -54,7 +54,7 @@ TODO: Ссылка на msdn
     var domparser = new DOMParser();
     var xml = domparser.parseFromString("<page>Hello, World!</page>", "text/xml");
 
-Ссылка: https://developer.mozilla.org/en/DOMParser
+Ссылка: <https://developer.mozilla.org/en/DOMParser>
 
 
 Сериализация xml-документа в строку
@@ -71,7 +71,7 @@ TODO: Ссылка на msdn
     var serializer = new XMLSerializer();
     var strXML = serializer.serializeToString(xml);
 
-Ссылка: https://developer.mozilla.org/en/XMLSerializer
+Ссылка: <https://developer.mozilla.org/en/XMLSerializer>
 
 
 Загрузка xml-документа с удаленного ресурса
@@ -84,4 +84,5 @@ TODO: Ссылка на msdn
         xml = data;
     }, "xml")
 
+Ссылка: <http://docs.jquery.com/Ajax/jQuery.get>
 
