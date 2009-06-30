@@ -1,5 +1,5 @@
 Кросс-браузерная работа с XML
-=============================
+###########################==
 
 Почти вся кросс-браузерность сводится к двум вариантам: IE и все остальные.
 
@@ -7,7 +7,7 @@
 Создание пустого xml-документа
 ------------------------------
 
-=== IE
+### IE
 
     var xml = new ActiveXObject( pid );
 
@@ -32,7 +32,7 @@
 
 TODO: Ссылка на msdn
 
-=== Не IE
+### Не IE
 
     var xml = document.implementation.createDocument("", "", null);
 
@@ -42,14 +42,14 @@ TODO: Ссылка на msdn
 Создание xml-документа из строки
 ----------------------------
 
-=== IE
+### IE
 
     var xml = .... // создать пустой xml-документ
     xml.loadXML("<page>Hello, World!</page>");
 
 TODO: Ссылка на msdn
 
-=== Не IE
+### Не IE
 
     var domparser = new DOMParser();
     var xml = domparser.parseFromString("<page>Hello, World!</page>", "text/xml");
@@ -60,13 +60,13 @@ TODO: Ссылка на msdn
 Сериализация xml-документа в строку
 -----------------------------------
 
-=== IE
+### IE
 
     var strXML = xml.xml;
 
 TODO: Ссылка на msdn
 
-=== Не IE
+### Не IE
 
     var serializer = new XMLSerializer();
     var strXML = serializer.serializeToString(xml);
